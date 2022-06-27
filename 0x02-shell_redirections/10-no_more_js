@@ -1,2 +1,2 @@
 #!/bin/bash
-rm -R *.js
+find . -mindepth 1 -type d | wc -1
